@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/cep.js" type='module' defer></script>
+    <title>Consultar CEP</title>
+</head>
+<body>
+  <form action="./php/insere.php" method="POST"  charset="UTF-8" >
+    <main class="container">
+        <h1 class="title">Consultar CEP</h1>
+        <div class="row">
+            <div class="inputbox">
+                <input type="number" id="cep" name="cep" required>
+                <label for="cep">CEP-Ex.:89212202</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="endereco" name="endereco" required>
+                <label for="endereco">Endereço</label>
+            </div>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+            <div class="inputbox">
+                <input type="text" id="bairro" name="bairro" required>
+                <label for="bairro">Bairro</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="cidade" name="cidade" required>
+                <label for="cidade">Cidade</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="estado" name="estado"  required>
+                <label for="estado">Estado</label>
+            </div>
+        </div>
+
+        <div class="row">
+          <button type="submit">Submit Form</button>
+      </div>
+
+      </main>  
+  </form>
+    <footer>
+        Jéssica Yohana Otto - 2022
+    </footer>
+</body>
+</html>
